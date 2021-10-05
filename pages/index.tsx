@@ -22,7 +22,7 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <Head>
         <title>159 maneiras de xinga a mãe do Igor</title>
-        <meta name="description" content="159 maneiras de xinga a mãe do Ig" />
+        <meta name="description" content="159 maneiras de xinga a mãe desse desgraçado" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
