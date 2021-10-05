@@ -15,14 +15,14 @@ const Home: NextPage = () => {
   const getOfensa = () => {
     fetch('/api/ofensas')
       .then(res => res.json())
-      .then(res => setFrase(res.frase.replace('sua mãe', 'mãe do Igor')))
+      .then(res => setFrase(res.frase))
   }
 
   return (
     <div className={styles.container}>
       <Head>
-        <title>159 maneiras de xinga a mãe do Igor</title>
-        <meta name="description" content="159 maneiras de xinga a mãe desse desgraçado" />
+        <title>159 maneiras de xingar a mãe do seu amigo</title>
+        <meta name="description" content="159 maneiras de xingar a mãe do seu amigo" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
